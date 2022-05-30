@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        //add 7 function
+      function add7(number) {
+        return number + 7;
+      }
+
+      console.log(add7(7));
+
+      // mutltiply 2 numbers function
+      function multiply(firstNumber, secondNumber) {
+        return firstNumber * secondNumber;
+      }
+      console.log(multiply(2, 6));
+
+      //capitalize first letter function
+      let string =
+        "this function capitalizes the character at the start. Make sure its not a space.";
+      function capitalize(str) {
+        console.log(string.charAt(0).toUpperCase() + str.slice(1));
+      }
+      capitalize(string);
+
+      //return last letter function( I made this string 1 because string had already been defined above)
+      let string1 = "the quick brown fox jumped over the lazy dog";
+      function lastLetter(str) {
+          console.log(string1.charAt(string1.length - 1))
+      }
+      lastLetter(string1);
+
+    </script>
+  </body>
+</html>
